@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Del 2</title>
+</head>
+<body>
+
+	<h1>Frågor som ska besvaras</h1>
+
+	<a href="../upg1/del1.html">Länk till <strong>sida om mig</strong></a>
+	<br>
+	<ol>
+		<li>Förklara kort vad ett element, attribut och värde är för något
+			<br>
+
+			<p>
+				<strong>Element</strong> är ett sätt att ordna innehållet i ett html dokument. tex &lt;strong> &lt;/strong>
+				är ett element. alla element har en start tag och en matchande sluttag.
+
+				Ett element har <strong>attributer</strong> tex. ett img element består av <em>attributerna src och
+				alt.</em>
+				<br>Dessa attributer är länken till bild filen och alternativ text ifall man kunde inte läsa in bilden i
+				webläsaren.
+
+				Element är vad webläsaren läser av och omvandlar till en websida och attribut är inställningarna man har
+				satt på de element som var bilden finns, storleken på bilden m.m. <strong>värde</strong> är tex. hur bred
+				bilden ska vara. som man kan sätta medhjälp av <em>width="värde"</em>
+			</p>
+			<br>
+		</li>
+
+		<li>Förklara vad HTTP är för något och vad ett <em>kommunikationsprotokoll</em> innebär
+			<br>
+
+			<p>
+				HTTP står för <strong>H</strong>yper <strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage.
+				som är språket man använder för att göra websidor. för att kunna visa en websida på internet måste man
+				använda sig av HTTP som säger vilken typ av kommunkitions protokoll man ska använda. Andra kommunikations
+				protokoll är tex. TCP/IP (nätverks kommunikation) eller STMP (epost).
+			</p>
+			<br>
+		</li>
+		<li>Vilka är <em>W3C</em> och vilken är deras huvudsakliga uppgift?
+			<br>
+
+			<p>
+				W3C är ett industrikonsortium bestående av olika företag, forskare och regeringar. <br>
+				Enligt wikipedia är W3C uppgift: "W3C arbetar med att utveckla tekniska protokoll, standarder och
+				programvara för webben med målet att genom ett öppet samarbete leda Internet till dess fulla potential." (<a
+					href="https://sv.wikipedia.org/wiki/World_Wide_Web_Consortium">wiki</a>)
+				<br>
+				Deras uppgift är att internet protokoll och sätta standarden. som sedan webläsarna implementerar.
+			</p>
+			<br>
+		</li>
+		<li>Vad står <em>WWW</em> för och vad är detta för något?
+			<br>
+
+			<p>
+				www står för <strong>World Wide Web</strong>. <br>
+				detta gör det möjligt att läsa in websidor från internet.
+			</p>
+			<br>
+		</li>
+		<li>En typisk internetadress kan se ut på följande vis <code>http://www.facebook.com/home.php</code>.
+			<ul>
+				<li>Vad kallas denna internetadress på fackspråk (en förkortning)?
+					<br>
+
+					<p>
+						en URL
+					</p>
+					<br>
+				</li>
+				<li>Vad betyder denna förkortning?
+					<br>
+
+					<p>
+						Uniform Resource Locator
+					</p>
+					<br>
+				</li>
+				<li>Vad kallas <em>a</em> <code>http://</code>, <em>b</em> <code>www.facebook.com</code> och <em>c</em>
+					<code>/home.php</code>?
+					<br>
+					<ul>
+						<li>a: protokoll</li>
+						<li>b: domän</li>
+						<li>c: sökväg/fil (websida)</li>
+					</ul>
+					<br>
+				</li>
+			</ul>
+		</li>
+		<li>Vad använder vi kommunikationsprotokollet FTP till?
+			<br>
+
+			<p>
+				för att komma åt FTP-servrar. Som man använder sig utav för att kunan föra över filer mellan klient och en
+				server.
+			</p>
+			<br>
+		</li>
+		<li>Vilken modell bygger HTTP på? Modellen beskriver förhållandet mellan en dator som svarar och en dator som
+			ställer förfrågan om att få se webbplatserna.
+			<br>
+
+			<p>
+				klient server model. webserver och webläsare (klient som finns din dator)
+			</p>
+			<br>
+		</li>
+		<li>Vad står HTML för och vilket typ av språk är detta?
+			<br>
+
+			<p>
+				HTTP står för <strong>H</strong>yper <strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage.
+				det är ett markup språk. andra exempel på markup språk är markdown. som du kan skriva websidor med eller xml
+				som nya MS Office bygger sina dokument på.
+				<br>
+				Markup språk skriver du i text hur texten ska formatera sig. därefter använder du en läsare (för websidor
+				webläsare) som då tolkar texten du skrivet och omvandlar den till text och layout. därför när man glömmer
+				tex. ">" i din html text så ser du hela html elementet med dess attributer. Detta är pga att webläsaren vet
+				inte då vilket element du vill visa.
+			</p>
+			<br>
+		</li>
+		<li>Varför använder vi oss av <em>indentering</em> (indrag) när vi skriver HTML-kod?
+			<br>
+
+			<p>
+				för att det gör det enklare för oss som utvecklare att läsa vad vi försöker göra. Det gör också enklare att
+				hitta missar.
+				Det ger oss struktur i våran kod. Så att det blir enkelt att följa flödet.
+
+			</p>
+			<br>
+		</li>
+		<li>Blir det någon skillnad på utseendet av sidan när du <em>indenterar</em> din HTML-kod?
+			<br>
+
+			<p>
+				nej. indenteringen påverkar inte. För att webläsaren läser inte av indenteringen. Finns andra språk som
+				använder sig av indenteringen för att förklara att detta är en if-sats/objekt m.m. tex Python.
+				<br>
+				enligt kurs materialet "Med indentering menar vi att vi strukturerar upp vår källkod (HTML) på ett sätt som
+				underlättar för oss människor att läsa koden." (<a
+					href="http://mah-webbutv.github.io/courses/da280a/material/m1_indentation.html"> ref</a>)
+			</p>
+			<br>
+		</li>
+		<li>Varför tror du att vi lär oss behärska HTML-kod från grunden till skillnad från att generera HTML-kod med hjälp
+			av s.k. WYSIWYG-programvaror och HTML-generatorer?
+			<br>
+
+			<p>
+				För att ifall man använder sig av något som generar kod. Så förstår man inte hur den fungerar. Samt så
+				generatorer kanske inte heller generar rätt. utan ger massa extra element som inte behövs. Det blir en
+				sallig röra. Tex. ifall man omvandlar ett word dokument till en html sida så innehåller den en massa extra
+				element som inte behövs.
+			</p>
+			<br>
+		</li>
+		<li>Vilka två delar består ett HTML-dokument av? Vilken sorts information finns i respektive del?
+			<br>
+			<strong>Head</strong> och <strong>Body</strong>.
+			<br>
+			<ol>
+				<li>Head: Innehåller metadata om din websida. tex. Titeln som syns högst upp i webläsaren.</li>
+				<li>Body: det är din själva websida. det som du ser. här i går den mesta av din html kod. Det är
+					innehållet.
+				</li>
+			</ol>
+			<br>
+		</li>
+		<li>Varför har vi s.k. HTML-kommentarer i vår kod?
+			<br>
+
+			<p>
+				För att förtydliga vad element/bitar i våran websida gör och betyder.
+				Det ger mer förståelse vad bitarna i websidan gör/ska göra.
+				<br>
+				<br>
+				Jag har förståt det från min java kurs. Att man använder sig utav kommentarer för att förtydliga vad
+				funktionen gör så att det blir enklare när man i framtiden tittar tillbaks på det man har skrivit och ifall
+				någon annan ska uppdatera det du har skrivit.
+			</p>
+			<br>
+		</li>
+	</ol>
+	<br>
+	<a href="../../index.html">Tillbaka till start sidan</a>
+</body>
+</html>
